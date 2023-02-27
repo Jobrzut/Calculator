@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 id="top">Calculator</h1>
+
+    <div id="add">
+        <input type="number" id="addone">
+        <h2>+</h2>
+        <input type="number" id="addtwo">
+        <h2>=</h2>
+        <h2 id="textadd"></h2>
+    </div>
+
+    <div id="subtract">
+        <input type="number" id="subone">
+        <h2>-</h2>
+        <input type="number" id="subtwo">
+        <h2>=</h2>
+        <h2 id="textsub"></h2>
+    </div>
+
+    <div id="multiply">
+        <input type="number" id="mulone"> 
+        <h2>*</h2>
+        <input type="number" id="multwo">
+        <h2>=</h2>
+        <h2 id="textmul"></h2>
+    </div>
+
+    <div id="divide">
+        <input type="number" id="divone">
+        <h2>:</h2>
+        <input type="number" id="divtwo">
+        <h2>=</h2>
+        <h2 id="textdiv"></h2>
+    </div>
+    
+    <button id="calculate" onclick="calcbutton()">Calculate!</button>
+
+</body>
+</html>
